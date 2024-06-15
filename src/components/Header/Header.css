@@ -1,0 +1,26 @@
+.h-container{
+   display:flex;
+   align-items:center;
+   justify-content:center; 
+}
+
+
+.h-wrapper{
+    background:#702963;
+    color:whitesmoke;
+}
+
+.h-container{
+    justify-content:space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.h-menu{
+    gap:2rem;
+}
+
+.h-menu>*:hover{
+    cursor:pointer;
+    color:red;
+}
